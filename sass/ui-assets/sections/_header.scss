@@ -1,0 +1,23 @@
+
+
+/* ================== header main ==================  */
+.header-main{padding-top:1rem; padding-bottom:1rem;}
+.brand-wrap, .navbar-brand { 
+    .logo{margin-right:7px;  max-height:42px; display:inline-block; }
+}
+
+.header-main{position:relative;}
+
+.widget-header{ display:inline-block; vertical-align: middle; position:relative;
+	form{min-width:280px;}
+	.title{display:block}
+	.notify{ position:absolute; top:-3px; right:-10px}
+}
+
+
+/* desktop only */
+@media all and (min-width: 768px) {
+
+	
+}
+/* desktop only .end */

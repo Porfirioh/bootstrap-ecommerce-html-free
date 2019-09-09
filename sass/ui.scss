@@ -1,0 +1,43 @@
+/* ==== BASE STYLES ====*/
+
+/* ==================== INCLUDE FONTS ======================= */
+@import url('../fonts/roboto/font.css');
+
+
+/* ========================
+UIkit bootstrap-ecommerce.com 
+===================== */
+
+@import "variables-custom"; 
+
+/* ================== HELPERS  =================== */
+@import "ui-assets/helpers/mixins";
+@import "ui-assets/helpers/helper-classes"; 
+@import "ui-assets/helpers/bg";
+@import "ui-assets/helpers/typography"; 
+
+
+/* ================== SECTIONS =================== */
+@import "ui-assets/sections/header";
+@import "ui-assets/sections/footer";
+@import "ui-assets/sections/sidebar";
+
+
+/* ================== COMPONENTS =================== */
+@import "ui-assets/components/plugin-styles";
+@import "ui-assets/components/buttons";
+@import "ui-assets/components/items";
+@import "ui-assets/components/lists";
+@import "ui-assets/components/cards-product";
+@import "ui-assets/components/elements.scss";
+@import "ui-assets/components/menu";
+@import "ui-assets/components/forms";
+
+/* ================== PAGES =================== */
+@import "ui-assets/pages/page-account";
+@import "ui-assets/pages/page-base";
+@import "ui-assets/pages/page-home";
+@import "ui-assets/pages/page-detail";
+@import "ui-assets/pages/page-listing";
+
+
