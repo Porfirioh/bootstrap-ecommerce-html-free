@@ -41,17 +41,6 @@
   &:last-child{border-bottom:0}
 }
 
-
-/* ====================== shopping-cart ==================== */
-.shopping-cart-wrap{
-  &.table{ 
-    td, th{ padding-left:$card-spacer-x;  padding-right:$card-spacer-x;}
-  }
-
-  .price-wrap{ line-height:1.2; }
-  .price{ font-size:18px; font-weight:bold; margin-right:5px; display:block; }
-}
-
 /* ====================== block ==================== */
 .box{
   padding:20px; background:#fff; 

@@ -52,8 +52,8 @@ $(document).ready(function() {
 			<img class="logo" src="images/logo.png">
 		</div> <!-- brand-wrap.// -->
 	</div>
-	<div class="col-lg-6 col-sm-12 order-3 order-lg-2">
-		<form action="#">
+	<div class="col-lg-6 col-sm-12">
+		<form action="#" class="search">
 			<div class="input-group w-100">
 			    <input type="text" class="form-control" placeholder="Search">
 			    <div class="input-group-append">
@@ -64,14 +64,14 @@ $(document).ready(function() {
 		    </div>
 		</form> <!-- search-wrap .end// -->
 	</div> <!-- col.// -->
-	<div class="col-lg-4 col-sm-6 col-8 order-2 order-lg-3">
-		<div class="float-md-right">
+	<div class="col-lg-4 col-sm-6 col-8">
+		<div class="widgets-wrap float-md-right">
 			<div class="widget-header  mr-3">
-				<a href="#" class="icon icon-sm rounded-circle bg-light"><i class="fa fa-shopping-cart"></i></a>
+				<a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-shopping-cart"></i></a>
 				<span class="badge badge-pill badge-danger notify">0</span>
 			</div>
 			<div class="widget-header icontext">
-				<a href="#" class="icon icon-sm rounded-circle bg-light"><i class="fa fa-user"></i></a>
+				<a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-user"></i></a>
 				<div class="text">
 					<span class="text-muted">Welcome!</span>
 					<div> 
@@ -105,9 +105,10 @@ $(document).ready(function() {
 <div class="row">
 	<main class="col-md-9">
 <div class="card">
+
 <table class="table table-borderless table-shopping-cart">
 <thead class="text-muted">
-<tr>
+<tr class="small text-uppercase">
   <th scope="col">Product</th>
   <th scope="col" width="120">Quantity</th>
   <th scope="col" width="120">Price</th>
@@ -118,10 +119,10 @@ $(document).ready(function() {
 <tr>
 	<td>
 		<figure class="itemside">
-			<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+			<div class="aside"><img src="images/items/1.jpg" class="img-sm"></div>
 			<figcaption class="info">
-				<a href="#" class="h6">Some name of item goes here nice</a>
-				<p class="text-muted">Size: XL, Color: blue, <br> Brand: Gucci</p>
+				<a href="#" class="title text-dark">Some name of item goes here nice</a>
+				<p class="text-muted small">Size: XL, Color: blue, <br> Brand: Gucci</p>
 			</figcaption>
 		</figure>
 	</td>
@@ -135,22 +136,22 @@ $(document).ready(function() {
 	</td>
 	<td> 
 		<div class="price-wrap"> 
-			<var class="price">$145</var> 
-			<small> $50 each </small> 
+			<var class="price">$1156.00</var> 
+			<small class="text-muted"> $315.20 each </small> 
 		</div> <!-- price-wrap .// -->
 	</td>
 	<td class="text-right"> 
 	<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
-	<a href="" class="btn btn-light"> × Remove</a>
+	<a href="" class="btn btn-light"> Remove</a>
 	</td>
 </tr>
 <tr>
 	<td>
 		<figure class="itemside">
-			<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+			<div class="aside"><img src="images/items/2.jpg" class="img-sm"></div>
 			<figcaption class="info">
-				<a href="#" class="h6">Product name  goes here nice</a>
-				<p class="text-muted">Size: XL, Color: blue, <br> Brand: Gucci</p>
+				<a href="#" class="title text-dark">Product name  goes here nice</a>
+				<p class="text-muted small">Size: XL, Color: blue, <br> Brand: Gucci</p>
 			</figcaption>
 		</figure>
 	</td>
@@ -164,22 +165,22 @@ $(document).ready(function() {
 	</td>
 	<td> 
 		<div class="price-wrap"> 
-			<var class="price">$145</var> 
-			<small> $50 each </small>  
+			<var class="price">$149.97</var> 
+			<small  class="text-muted"> $75.00 each </small>  
 		</div> <!-- price-wrap .// -->
 	</td>
 	<td class="text-right"> 
 	<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
-	<a href="" class="btn btn-light btn-round"> × Remove</a>
+	<a href="" class="btn btn-light btn-round"> Remove</a>
 	</td>
 </tr>
 <tr>
 	<td>
 		<figure class="itemside">
-			<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+			<div class="aside"><img src="images/items/3.jpg" class="img-sm"></div>
 			<figcaption class="info">
-				<a href="#" class="h6">Another name of some product goes just here as a demo text </a>
-				<p class="text-muted">Size: XL, Color: blue,  Brand: Tissot</p>
+				<a href="#" class="title text-dark">Another name of some product goes just here as a demo text </a>
+				<p class="small text-muted">Size: XL, Color: blue,  Brand: Tissot</p>
 			</figcaption>
 		</figure>
 	</td>
@@ -192,17 +193,18 @@ $(document).ready(function() {
 	</td>
 	<td> 
 		<div class="price-wrap"> 
-			<var class="price">$145</var> 
-			<small> $50 each </small> 
+			<var class="price">$98.00</var> 
+			<small class="text-muted"> $578.00 each</small> 
 		</div> <!-- price-wrap .// -->
 	</td>
 	<td class="text-right"> 
 		<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
-		<a href="" class="btn btn-light btn-round"> × Remove</a>
+		<a href="" class="btn btn-light btn-round"> Remove</a>
 	</td>
 </tr>
 </tbody>
 </table>
+
 <div class="card-body border-top">
 	<a href="#" class="btn btn-primary float-md-right"> Make Purchase <i class="fa fa-chevron-right"></i> </a>
 	<a href="#" class="btn btn-light"> <i class="fa fa-chevron-left"></i> Continue shopping </a>

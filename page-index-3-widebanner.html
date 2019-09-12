@@ -51,7 +51,7 @@ $(document).ready(function() {
 			<img class="logo" src="images/logo.png">
 		</div> <!-- brand-wrap.// -->
 	</div>
-	<div class="col-lg-6 col-sm-12 order-3 order-lg-2">
+	<div class="col-lg-6 col-sm-12">
 		<form action="#" class="search">
 			<div class="input-group w-100">
 			    <input type="text" class="form-control" placeholder="Search">
@@ -63,14 +63,14 @@ $(document).ready(function() {
 		    </div>
 		</form> <!-- search-wrap .end// -->
 	</div> <!-- col.// -->
-	<div class="col-lg-4 col-sm-6 col-8 order-2 order-lg-3">
-		<div class="float-md-right">
+	<div class="col-lg-4 col-sm-6 col-8">
+		<div class="widgets-wrap float-md-right">
 			<div class="widget-header  mr-3">
-				<a href="#" class="icon icon-sm rounded-circle bg-light"><i class="fa fa-shopping-cart"></i></a>
+				<a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-shopping-cart"></i></a>
 				<span class="badge badge-pill badge-danger notify">0</span>
 			</div>
 			<div class="widget-header icontext">
-				<a href="#" class="icon icon-sm rounded-circle bg-light"><i class="fa fa-user"></i></a>
+				<a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-user"></i></a>
 				<div class="text">
 					<span class="text-muted">Welcome!</span>
 					<div> 
@@ -85,9 +85,10 @@ $(document).ready(function() {
 </div> <!-- row.// -->
 	</div> <!-- container.// -->
 </section> <!-- header-main .// -->
+</header> <!-- section-header.// -->
 
 
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-main navbar-expand-lg navbar-light">
   <div class="container">
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -149,7 +150,7 @@ $(document).ready(function() {
 
 
 <!-- ========================= SECTION SPECIAL ========================= -->
-<section class="section-specials padding-y bg-light">
+<section class="section-specials padding-y bg">
 <div class="container">	
 <div class="row">
 <div class="col-md-4">	
@@ -300,12 +301,12 @@ $(document).ready(function() {
 
 
 <!-- ========================= FOOTER ========================= -->
-<footer class="section-footer bg-light">
-		<section class="footer-main padding-y">
-			<div class="container">
+<footer class="section-footer border-top">
+	<div class="container">
+		<section class="footer-top padding-y">
 			<div class="row">
 				<aside class="col-md">
-					<h5 class="title">Brands</h5>
+					<h6 class="title">Brands</h6>
 					<ul class="list-unstyled">
 						<li> <a href="#">Adidas</a></li>
 						<li> <a href="#">Puma</a></li>
@@ -314,7 +315,7 @@ $(document).ready(function() {
 					</ul>
 				</aside>
 				<aside class="col-md">
-					<h5 class="title">Company</h5>
+					<h6 class="title">Company</h6>
 					<ul class="list-unstyled">
 						<li> <a href="#">About us</a></li>
 						<li> <a href="#">Career</a></li>
@@ -324,7 +325,7 @@ $(document).ready(function() {
 					</ul>
 				</aside>
 				<aside class="col-md">
-					<h5 class="title">Help</h5>
+					<h6 class="title">Help</h6>
 					<ul class="list-unstyled">
 						<li> <a href="#">Contact us</a></li>
 						<li> <a href="#">Money refund</a></li>
@@ -334,7 +335,7 @@ $(document).ready(function() {
 					</ul>
 				</aside>
 				<aside class="col-md">
-					<h5 class="title">Account</h5>
+					<h6 class="title">Account</h6>
 					<ul class="list-unstyled">
 						<li> <a href="#"> User Login </a></li>
 						<li> <a href="#"> User register </a></li>
@@ -343,30 +344,35 @@ $(document).ready(function() {
 					</ul>
 				</aside>
 				<aside class="col-md">
-					<h5 class="title">Resources</h5>
+					<h6 class="title">Social</h6>
 					<ul class="list-unstyled">
-						<li><a href="#"> Documents </a> </li>
-						<li><a href="#"> Webinars</a> </li>
-						<li><a href="#"> Product samples </a></li>
+						<li><a href="#"> <i class="fab fa-facebook"></i> Facebook </a></li>
+						<li><a href="#"> <i class="fab fa-twitter"></i> Twitter </a></li>
+						<li><a href="#"> <i class="fab fa-instagram"></i> Instagram </a></li>
+						<li><a href="#"> <i class="fab fa-youtube"></i> Youtube </a></li>
 					</ul>
 				</aside>
 			</div> <!-- row.// -->
-			</div><!-- //container -->
-	</section>	<!-- footer-top.// -->
-	<section class="footer-copyright border-top">
-		<div class="container">
-			<p class="float-md-right"> 
-				&copy Copyright 2019 All rights reserved
-			</p>
-			<p>
-				<a href="#">Terms and conditions</a>
-			</p>
-		</div><!-- //container -->
-	</section>
+		</section>	<!-- footer-top.// -->
+
+		<section class="footer-bottom border-top row">
+			<div class="col-md-2">
+				<p class="text-muted"> &copy 2019 Company name </p>
+			</div>
+			<div class="col-md-8 text-md-center">
+				<span  class="px-2">info@pixsellz.io</span>
+				<span  class="px-2">+879-332-9375</span>
+				<span  class="px-2">Street name 123, Avanue abc</span>
+			</div>
+			<div class="col-md-2 text-md-right text-muted">
+				<i class="fab fa-lg fa-cc-visa"></i>
+				<i class="fab fa-lg fa-cc-paypal"></i>
+				<i class="fab fa-lg fa-cc-mastercard"></i>
+			</div>
+		</section>
+	</div><!-- //container -->
 </footer>
 <!-- ========================= FOOTER END // ========================= -->
-
-
 
 </body>
 </html>

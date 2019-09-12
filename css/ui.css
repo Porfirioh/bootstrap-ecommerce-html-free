@@ -38,9 +38,9 @@ a:hover {
   font-size: 16px; }
 
 .icon-sm {
-  width: 42px;
-  height: 42px;
-  line-height: 42px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
   font-size: 20px; }
 
 .icon-md {
@@ -204,7 +204,7 @@ article:after,
   padding-right: 7px; }
 
 .bg {
-  background-color: #f2f2f2; }
+  background-color: #f8f9fa; }
 
 .bg-white {
   background-color: #fff; }
@@ -352,7 +352,13 @@ p:last-child {
 
 /* ================== SECTIONS =================== */
 /* ================== header main ==================  */
+.header-top-light .nav-link {
+  color: #adb5bd; }
+  .header-top-light .nav-link:hover {
+    color: #343a40; }
+
 .header-main {
+  position: relative;
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
@@ -361,8 +367,8 @@ p:last-child {
   max-height: 42px;
   display: inline-block; }
 
-.header-main {
-  position: relative; }
+.navbar-main .nav-link {
+  font-weight: 500; }
 
 .widget-header {
   display: inline-block;
@@ -783,18 +789,6 @@ a[class*='card'] {
   .filter-group:last-child {
     border-bottom: 0; }
 
-/* ====================== shopping-cart ==================== */
-.shopping-cart-wrap.table td, .shopping-cart-wrap.table th {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem; }
-.shopping-cart-wrap .price-wrap {
-  line-height: 1.2; }
-.shopping-cart-wrap .price {
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 5px;
-  display: block; }
-
 /* ====================== block ==================== */
 .box {
   padding: 20px;
@@ -968,5 +962,16 @@ a[class*='card'] {
     min-width: 80px; }
 
 /* ================ PAGES HEADER ================== */
+/* ====================== shopping-cart ==================== */
+.table-shopping-cart.table td, .table-shopping-cart.table th {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; }
+.table-shopping-cart .price-wrap {
+  line-height: 1.2; }
+.table-shopping-cart .price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+  display: block; }
 
 /*# sourceMappingURL=ui.css.map */
