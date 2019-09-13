@@ -14,3 +14,8 @@
 	i{ color:$gray-500; }
 	&:hover{ background-color:#fff;  border-color:darken($border-color, 30%);  }
 }
+
+.btn{
+	.text + i{ margin-left:10px; }
+	i + .text{ margin-left:10px; }
+}

@@ -10,6 +10,9 @@ a{
 
 .price-wrap{ letter-spacing: -0.7px  }
 
+.content-body{
+	flex: 1 1 auto; padding: 2rem 2.3rem; }
+
 /* =================  DEFINED VARIABLES =================== */
 .icon-xs, .icon-sm, .icon-md, .icon-lg{display:inline-block; text-align:center; flex-shrink: 0; flex-grow:0; }
 .icon-xs{ width:32px;  height:32px;  line-height:32px; font-size:16px; }

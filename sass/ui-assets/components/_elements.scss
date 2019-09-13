@@ -5,7 +5,7 @@
 .icontext{
     display: inline-flex; align-items: center;  vertical-align: middle;
     p{ margin-bottom:0; }
-    .text{ width: 100%; line-height:$line-height-sm; }
+    .text{ width: 100%; line-height:$line-height-sm; color:$dark; }
     .icon{position:relative;   margin-right:15px; flex-shrink:0; flex-grow:0;}
     .title{ display:block; margin-bottom:0;} 
 }
@@ -27,17 +27,17 @@
   border-radius: 3rem;  color: #fff;  background-color:$red;
 }
 
+.price{ font-weight: 600; color:$dark; }
+.price-old{color:$text-muted; margin-left:3px; font-size:85%; }
 
-.icon-action{margin-top:5px; float:right; font-size:80%}
-
-
+.icon-control{margin-top:5px; float:right; font-size:80%}
 
 .card-header{
     .title{ margin-bottom:0; line-height:1.5}
 }
 
 .filter-group{ border-bottom:1px solid $border-color;
-  .card-header{border-bottom:0;  background-color:#f9f9f9}
+  .card-header{border-bottom:0;  }
   &:last-child{border-bottom:0}
 }
 

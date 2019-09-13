@@ -1,11 +1,20 @@
 /* ==== BASE STYLES ====*/
 
-/* ==================== INCLUDE FONTS ======================= */
-@import url('../fonts/roboto/font.css');
+/* ==================== GLOBAL STYLES ======================= */
+// @import url('../fonts/roboto/font.css');
+
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+html{ font-size: 15px; }
+
+
 
 
 /* ========================
-UIkit bootstrap-ecommerce.com 
+INCLUDE STYLES AND COMPONENTS
 ===================== */
 
 @import "variables-custom"; 

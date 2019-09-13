@@ -1,34 +1,35 @@
+/* IF CARD IS LINKED */
 a[class*='card']{
     color:initial;
-
     &:hover{
         .title{ color:$primary; }
     }
-
 }
 
-.card-product{ margin-bottom:20px; 
-    a.title{color: initial; display: block;
+
+/* BASE STYLE FOR PRODUCT ITEM */
+[class*='card-product']{
+
+    a.title{color:$dark; display: block;
         &:hover{ color:$primary; }
     }
+
+    .badge{  top: 10px; left: 10px; position: absolute;  }
+
     p{margin-bottom: 0;}
-    .img-wrap{ 
-        border-radius:$border-radius-sm $border-radius-sm 0 0;
-        overflow:hidden; 
-        position:relative;
-        height:220px;
-        text-align: center;
+    .img-wrap{
+        overflow:hidden; position:relative;
         img{ height:100%; max-width:100%; width:auto; display:inline-block; object-fit:cover;}
     }
+}
+
+/* GRID STYLE PRODUCT ITEM */
+.card-product-grid{ margin-bottom:20px;
+    .img-wrap{ border-radius:$border-radius-sm $border-radius-sm 0 0; height:220px; }
+
     .info-wrap{ overflow:hidden;  padding:18px 20px; }
+    .bottom-wrap{padding:18px; border-top:1px solid $border-color;}
 
-    .action{padding-top:5px; margin-top:5px}
-    
-    .bottom-wrap{padding:15px; border-top:1px solid $border-color;}
-    .price{ font-weight: 600 }
-    .price-old{color:$text-muted; }
-
-    /* btn-overlay-bottom */
     .topbar{
         position:absolute; top:0; width: 100%; z-index: 10; left: 0; text-align:initial;
         padding:10px 15px;
@@ -36,6 +37,7 @@ a[class*='card']{
             &:hover{ color: $primary }
         }
     }
+    .fix-height{ height:80px; overflow:hidden; }
     .btn-overlay { 
         transition:.5s;  opacity:0;
         left: 0;  bottom: 0;
@@ -45,15 +47,14 @@ a[class*='card']{
     }
     &:hover .btn-overlay{ opacity:1;}
     &:hover{box-shadow:0 4px 15px rgba(#999, .3); transition:.3s}
+}
 
 
-    // product large view
-    .info-main{ padding:1.5rem }
-    .info-aside{ padding:1.5rem; border-left:1px solid $border-color; height: 100%  }
-    .badge{  top: 10px; left: 10px; position: absolute;  }
-
-    .fix-height{ height:75px; overflow:hidden; }
-
+/* LARGE LIST STYLE PRODUCT ITEM */
+.card-product-list{ margin-bottom:20px; 
+    .img-wrap{ height:220px; border-radius:$border-radius 0 0 $border-radius; }
+    .info-main{ padding:1.5rem 1rem}
+    .info-aside{ padding:1.5rem 1rem; border-left:1px solid $border-color; height: 100%  }
 }
 
 

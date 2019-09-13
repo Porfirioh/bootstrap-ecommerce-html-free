@@ -46,7 +46,7 @@ $(document).ready(function() {
   <nav class="d-flex align-items-center flex-column flex-md-row">
     <ul class="nav mr-md-auto">
     		<li class="nav-item dropdown">
-    			<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> USD </a>
+    			<a href="#" class="nav-link pl-0 dropdown-toggle" data-toggle="dropdown"> USD </a>
     			<ul class="dropdown-menu small">
     				<li><a class="dropdown-item" href="#">EUR</a></li>
     				<li><a class="dropdown-item" href="#">AED</a></li>
@@ -110,10 +110,16 @@ $(document).ready(function() {
         </li>
       </ul>
 
-       <form class="form-inline my-2 my-lg-0">
-		  <input class="form-control mr-sm-2" type="search" placeholder="Search">
-		  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		</form>
+      <form class="form-inline my-2 my-lg-0">
+		    <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+		  </form>
 
     </div> <!-- collapse .// -->
   </div> <!-- container .// -->
