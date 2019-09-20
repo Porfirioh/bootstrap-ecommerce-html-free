@@ -49,6 +49,7 @@ a[class*='card']{
     &:hover{box-shadow:0 4px 15px rgba(#999, .3); transition:.3s}
 }
 
+.item-slide .card-product-grid{ margin-bottom:0; }
 
 /* LARGE LIST STYLE PRODUCT ITEM */
 .card-product-list{ margin-bottom:20px; 

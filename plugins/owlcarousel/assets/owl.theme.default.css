@@ -6,17 +6,13 @@
 /*
  * 	Default theme - Owl Carousel CSS File
  */
-.owl-theme .owl-nav {
-  position: absolute; top:40%; width: 100%;
-  text-align:justify; 
-}
-.owl-prev, .owl-next{ position: absolute; }
+.owl-prev, .owl-next{ position: absolute; top:50%; transform: translateY(-50%); }
+
 .owl-prev{left:-30px;}
 .owl-next{ right:-30px; }
 
   .owl-theme .owl-nav [class*='owl-'] {
     padding:7px;
-    background: #D6D6D6;
     display: inline-block;
     cursor: pointer; outline:0; }
     .owl-theme .owl-nav [class*='owl-']:hover {
